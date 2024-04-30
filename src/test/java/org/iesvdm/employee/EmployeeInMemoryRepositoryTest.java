@@ -67,7 +67,6 @@ public class EmployeeInMemoryRepositoryTest {
 	public void testEmployeeRepositorySaveNewEmployee() {
 		EmployeeRepository employeeRepository = Mockito.mock(EmployeeRepository.class);
 
-		// Crear un empleado
 		Employee employee = new Employee("Juan", 10);
 
 		Mockito.when(employeeRepository.save(Mockito.any(Employee.class))).thenReturn(employee);
