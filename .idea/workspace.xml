@@ -10,7 +10,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5c399beb-7381-4adb-ab43-564baa14b56b" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;src/test/java/org/iesvdm/employee/EmployeeManagerTest.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/iesvdm/employee/EmployeeInMemoryRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/iesvdm/employee/EmployeeInMemoryRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/iesvdm/dominio/MockMethodsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/iesvdm/dominio/MockMethodsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/iesvdm/employee/EmployeeManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/iesvdm/employee/EmployeeManagerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +53,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.EmployeeInMemoryRepositoryTest.testEmployeeRepositoryFindAll.executor": "Run",
+    "JUnit.EmployeeInMemoryRepositoryTest.testEmployeeRepositorySaveExistingEmployee.executor": "Run",
+    "JUnit.EmployeeInMemoryRepositoryTest.testEmployeeRepositorySaveNewEmployee.executor": "Run",
+    "JUnit.MockMethodsTest.whenUsingMockWithSettings_thenCorrect.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -80,39 +84,7 @@
       <recent name="org.iesvdm.dominio" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EmployeeInMemoryRepositoryTest.testEmployeeRepositorySaveExistingEmployee">
-    <configuration name="ArgumentMatcherTest.anyAndAdditionalArgumentMatchersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="proyecto_mockito" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.iesvdm.dominio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.iesvdm.dominio" />
-      <option name="MAIN_CLASS_NAME" value="org.iesvdm.dominio.ArgumentMatcherTest" />
-      <option name="METHOD_NAME" value="anyAndAdditionalArgumentMatchersTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArgumentMatcherTest.anyArgumentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="proyecto_mockito" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.iesvdm.dominio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.iesvdm.dominio" />
-      <option name="MAIN_CLASS_NAME" value="org.iesvdm.dominio.ArgumentMatcherTest" />
-      <option name="METHOD_NAME" value="anyArgumentTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.EmployeeManagerTest.testExampleOfArgumentCaptor">
     <configuration name="EmployeeInMemoryRepositoryTest.testEmployeeRepositoryFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="proyecto_mockito" />
       <extension name="coverage">
@@ -161,13 +133,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EmployeeManagerTest.testExampleOfArgumentCaptor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proyecto_mockito" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.iesvdm.employee.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.iesvdm.employee" />
+      <option name="MAIN_CLASS_NAME" value="org.iesvdm.employee.EmployeeManagerTest" />
+      <option name="METHOD_NAME" value="testExampleOfArgumentCaptor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MockMethodsTest.whenUsingMockWithSettings_thenCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proyecto_mockito" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.iesvdm.dominio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.iesvdm.dominio" />
+      <option name="MAIN_CLASS_NAME" value="org.iesvdm.dominio.MockMethodsTest" />
+      <option name="METHOD_NAME" value="whenUsingMockWithSettings_thenCorrect" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EmployeeManagerTest.testExampleOfArgumentCaptor" />
+        <item itemvalue="JUnit.MockMethodsTest.whenUsingMockWithSettings_thenCorrect" />
         <item itemvalue="JUnit.EmployeeInMemoryRepositoryTest.testEmployeeRepositorySaveExistingEmployee" />
         <item itemvalue="JUnit.EmployeeInMemoryRepositoryTest.testEmployeeRepositorySaveNewEmployee" />
         <item itemvalue="JUnit.EmployeeInMemoryRepositoryTest.testEmployeeRepositoryFindAll" />
-        <item itemvalue="JUnit.ArgumentMatcherTest.anyArgumentTest" />
-        <item itemvalue="JUnit.ArgumentMatcherTest.anyAndAdditionalArgumentMatchersTest" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +198,10 @@
       <workItem from="1713177366619" duration="8742000" />
       <workItem from="1713875191006" duration="336000" />
       <workItem from="1714113904844" duration="1903000" />
-      <workItem from="1714476535105" duration="392000" />
+      <workItem from="1714476535105" duration="869000" />
+      <workItem from="1715323517576" duration="10000" />
+      <workItem from="1715926498277" duration="325000" />
+      <workItem from="1716897126187" duration="620000" />
     </task>
     <task id="LOCAL-00001" summary="inicial">
       <option name="closed" value="true" />
@@ -236,7 +243,23 @@
       <option name="project" value="LOCAL" />
       <updated>1713875242381</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;src/test/java/org/iesvdm/employee/EmployeeManagerTest.java">
+      <option name="closed" value="true" />
+      <created>1714477198114</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714477198115</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;src/test/java/org/iesvdm/employee/EmployeeManagerTest.java">
+      <option name="closed" value="true" />
+      <created>1714477403132</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714477403132</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

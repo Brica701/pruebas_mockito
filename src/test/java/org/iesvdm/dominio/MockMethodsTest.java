@@ -104,7 +104,7 @@ public class MockMethodsTest {
         //assertThat(listMock).hasSize(0);
         when(userMock.getRole()).thenCallRealMethod();
 
-        assertThat(userMock.getRole()).isNull(); //se ejecuta la llamada real, pero el objeto
+        assertThat(userMock.getRole()).isNull();
 
     }
 
